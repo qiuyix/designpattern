@@ -1,4 +1,4 @@
-package com.arfront.designpattern.command;
+package com.arfront.designpattern.pattern.command;
 
 public class Test {
     public static void main(String[] args) {

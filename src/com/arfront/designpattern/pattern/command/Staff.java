@@ -1,4 +1,4 @@
-package com.arfront.designpattern.command;
+package com.arfront.designpattern.pattern.command;
 
 import java.util.ArrayList;
 import java.util.List;
