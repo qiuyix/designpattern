@@ -2,17 +2,16 @@ package com.arfront.designpattern.command;
 
 public class Test {
     public static void main(String[] args) {
-        CourseVideo courseVideo = new CourseVideo("课程1");
+        WebApplication webApplication = new WebApplication("名片小程序");
 
-        OpenCourseVideoCommand openCourseVideoCommand = new OpenCourseVideoCommand(courseVideo);
+        H5WebApplicationCommand h5WebApplicationCommand = new H5WebApplicationCommand(webApplication);
 
-        CloseCourseVideoCommand closeCourseVideoCommand = new CloseCourseVideoCommand(courseVideo);
-
+        MiniProgramWebApplicationCommand miniProgramWebApplicationCommand = new MiniProgramWebApplicationCommand(webApplication);
 
         Staff staff = new Staff();
 
-        staff.addCommand(openCourseVideoCommand);
-        staff.addCommand(closeCourseVideoCommand);
+        staff.addCommand(h5WebApplicationCommand);
+        staff.addCommand(miniProgramWebApplicationCommand);
 
         staff.executeCommands();
     }
