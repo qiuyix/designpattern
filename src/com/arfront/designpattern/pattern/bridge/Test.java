@@ -7,9 +7,13 @@ public class Test {
         Account icbcAccount = icbcBank.openAccount();
         icbcAccount.showAccountType();
 
+        System.out.println();
+
         Bank icbcBank2 = new ICBCBank(new SavingAccount());
         Account icbcAccount2 = icbcBank2.openAccount();
         icbcAccount2.showAccountType();
+
+        System.out.println();
 
         Bank abcBank = new ABCBank(new SavingAccount());
         Account abcAccount = abcBank.openAccount();
