@@ -1,5 +1,6 @@
 package com.arfront.designpattern.pattern.command;
 
+// 接收者
 public class WebApplication {
 
     private String name;

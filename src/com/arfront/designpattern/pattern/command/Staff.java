@@ -3,6 +3,7 @@ package com.arfront.designpattern.pattern.command;
 import java.util.ArrayList;
 import java.util.List;
 
+// 调用者
 public class Staff {
     private List<Command> commandList = new ArrayList<>();
 

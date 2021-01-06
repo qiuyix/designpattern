@@ -1,5 +1,6 @@
 package com.arfront.designpattern.pattern.command;
 
+// 调用者
 public class Test {
     public static void main(String[] args) {
         WebApplication webApplication = new WebApplication("名片小程序");
