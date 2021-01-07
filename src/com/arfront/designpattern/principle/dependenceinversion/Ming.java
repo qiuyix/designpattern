@@ -1,7 +1,7 @@
 package com.arfront.designpattern.principle.dependenceinversion;
 
 
-public class Geely {
+public class Ming {
 
     public void setiCourse(ICourse iCourse) {
         this.iCourse = iCourse;
@@ -11,7 +11,7 @@ public class Geely {
 
 
 
-    public void studyImoocCourse(){
+    public void studyCourse(){
         iCourse.studyCourse();
     }
 

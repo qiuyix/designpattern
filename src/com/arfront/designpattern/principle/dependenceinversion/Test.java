@@ -5,31 +5,31 @@ public class Test {
 
     //v1
 //    public static void main(String[] args) {
-//        Geely geely = new Geely();
-//        geely.studyJavaCourse();
-//        geely.studyFECourse();
+//        Ming ming = new Ming();
+//        ming.studyJavaCourse();
+//        ming.studyFECourse();
 //    }
 
     //v2
 //    public static void main(String[] args) {
-//        Geely geely = new Geely();
-//        geely.studyImoocCourse(new JavaCourse());
-//        geely.studyImoocCourse(new FECourse());
-//        geely.studyImoocCourse(new PythonCourse());
+//        Ming ming = new Ming();
+//        ming.studyImoocCourse(new JavaCourse());
+//        ming.studyImoocCourse(new FECourse());
+//        ming.studyImoocCourse(new PythonCourse());
 //    }
 
     //v3
 //    public static void main(String[] args) {
-//        Geely geely = new Geely(new JavaCourse());
+//        Ming ming = new Ming(new JavaCourse());
 //        geely.studyImoocCourse();
 //    }
     public static void main(String[] args) {
-        Geely geely = new Geely();
-        geely.setiCourse(new JavaCourse());
-        geely.studyImoocCourse();
+        Ming ming = new Ming();
+        ming.setiCourse(new JavaCourse());
+        ming.studyCourse();
 
-        geely.setiCourse(new FECourse());
-        geely.studyImoocCourse();
+        ming.setiCourse(new FECourse());
+        ming.studyCourse();
 
     }
 
