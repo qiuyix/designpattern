@@ -1,7 +1,7 @@
 package com.arfront.designpattern.principle.liskovsubstitution;
 
 
-public class Square implements Quadrangle {
+public class Square extends Rectangle {
     private long sideLength;
 
     public long getSideLength() {

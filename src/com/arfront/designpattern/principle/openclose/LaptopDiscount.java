@@ -1,9 +1,9 @@
 package com.arfront.designpattern.principle.openclose;
 
 
-public class JavaDiscountCourse extends JavaCourse {
+public class LaptopDiscount extends Laptop {
 
-    public JavaDiscountCourse(Integer id, String name, Double price) {
+    public LaptopDiscount(Integer id, String name, Double price) {
         super(id, name, price);
     }
 

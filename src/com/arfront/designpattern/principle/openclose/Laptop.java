@@ -1,12 +1,12 @@
 package com.arfront.designpattern.principle.openclose;
 
 
-public class JavaCourse implements ICourse{
+public class Laptop implements IGoods {
     private Integer Id;
     private String name;
     private Double price;
 
-    public JavaCourse(Integer id, String name, Double price) {
+    public Laptop(Integer id, String name, Double price) {
         this.Id = id;
         this.name = name;
         this.price = price;

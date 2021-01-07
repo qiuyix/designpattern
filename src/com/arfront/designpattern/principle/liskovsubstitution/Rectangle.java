@@ -1,16 +1,14 @@
 package com.arfront.designpattern.principle.liskovsubstitution;
 
 
-public class Rectangle implements Quadrangle {
+public class Rectangle{
     private long length;
     private long width;
 
-    @Override
     public long getWidth() {
         return width;
     }
 
-    @Override
     public long getLength() {
         return length;
     }
